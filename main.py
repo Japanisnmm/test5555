@@ -77,7 +77,7 @@ def run():
         # Home Page
         if page == "Preidct":
             with header:
-                st.header("Loan Default Risk Prediction 💰")
+                st.header("Loan Risk Prediction 💰")
 
             with content:
                 col1, col2 = st.columns([8, 4])
