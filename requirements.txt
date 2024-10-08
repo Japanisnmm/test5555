@@ -5,4 +5,4 @@ tensorflow==2.16.1
 scikit-learn==1.2.0
 numpy
 pandas
-setuptools
+
