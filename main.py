@@ -64,7 +64,7 @@ def run():
 
         page = option_menu(
             menu_title=None,
-            options=['Preidct', 'From CSV File'],
+            options=['Predict', 'From CSV File'],
             icons=['robot', 'filetype-csv'],
             menu_icon="cast",
             default_index=0,
@@ -83,7 +83,7 @@ def run():
                 col1, col2 = st.columns([8, 4])
 
                 with col1:
-                    with st.form("Preidct"):
+                    with st.form("Predict"):
                         c1, c2 = st.columns(2)
                         with c1:
                             annual_income = st.number_input('**Annual Income**', min_value=10000,
