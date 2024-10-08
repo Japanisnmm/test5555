@@ -75,7 +75,7 @@ def run():
         # st_lottie(lottie_json, height=350, speed=1)
 
         # Home Page
-        if page == "Preidct":
+        if page == "Predict":
             with header:
                 st.header("Loan Risk Prediction 💰")
 
